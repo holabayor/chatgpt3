@@ -10,16 +10,16 @@ const Navbar = () => {
       <ul className="list-none md:flex hidden items-center flex-1">
         {navLinks.map((navLink, index) => (
           <li key={navLink.id} className={`text-white text-[18px] ml-10`}>
-            <a href={`${navLink.id}`}>{navLink.title}</a>
+            <a href={`#${navLink.id}`}>{navLink.title}</a>
           </li>
         ))}
       </ul>
-      <a href="#" className="text-white mr-4">
+      <a href="#" className="text-white md:flex hidden mr-4 ">
         Sign in
       </a>
-      <button className="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+      <a className="md:flex hidden items-center justify-center px-4 py-2 border btn border-transparent rounded-md text-white">
         Sign up
-      </button>
+      </a>
       <div className="md:hidden flex flex-1 items justify-end">
         <img
           src={toggle ? close : menu}
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div
         className={`${
           toggle ? 'flex' : 'hidden'
-        } p-6 absolute top-20 right-0 sidebar bg-black flex flex-col w-full`}
+        } p-6 absolute top-20 right-0 sidebar bg-gray-800 flex flex-col w-full z-30`}
       >
         <ul className="list-none flex flex-col justify-end items-center flex-1">
           {navLinks.map((navLink, index) => (
@@ -41,16 +41,22 @@ const Navbar = () => {
                 index === navLinks.length - 1 ? 'mb-6' : 'mb-4'
               }`}
             >
-              <a href={`${navLink.id}`}>{navLink.title}</a>
+              <a href={`#${navLink.id}`}>{navLink.title}</a>
             </li>
           ))}
         </ul>
-        <a href="#" className="text-white mr-4">
+        <a
+          href="#"
+          className="flex items-center justify-center text-white my-2"
+        >
           Sign in
         </a>
-        <button className="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <a
+          href="#"
+          className="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange"
+        >
           Sign up
-        </button>
+        </a>
       </div>
     </nav>
   );

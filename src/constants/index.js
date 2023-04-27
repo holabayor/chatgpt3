@@ -57,6 +57,57 @@ export const clients = [
   },
 ];
 
+export const about = {
+  heading: 'What is GPT-3',
+  text: 'We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.',
+};
+
+export const aboutLinks = [
+  {
+    heading: 'Chatbots',
+    text: 'We so opinion friends me message as delight. Whole front do of plate heard oh ought.',
+  },
+  {
+    heading: 'Knowledge Base',
+    text: 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b',
+  },
+  {
+    heading: 'Education',
+    text: 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b',
+  },
+];
+
+export const feature = {
+  heading:
+    'The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.',
+  text: 'Request Early Access to Get Started',
+};
+
+export const feature2 = {
+  heading: 'The possibilities are beyond your imagination',
+  paragraph:
+    'Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.',
+  text: 'Request Early Access to Get Started',
+};
+
+export const featureLinks = [
+  {
+    heading: 'Improving end distrusts instantly ',
+    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+  },
+  {
+    heading: 'Become the tended active',
+    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+  },
+  {
+    heading: 'Message or am nothing',
+    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+  },
+  {
+    heading: 'Really boy law county',
+    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.',
+  },
+];
 export const blog = [
   {
     id: 'blog-1',

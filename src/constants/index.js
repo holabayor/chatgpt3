@@ -146,15 +146,15 @@ export const footerLinks = [
     title: 'Links',
     links: [
       {
+        name: 'Overons',
         link: '#',
       },
       {
+        name: 'Social Media',
         link: '#',
       },
       {
-        link: '#',
-      },
-      {
+        name: 'Counters',
         link: '#',
       },
     ],
@@ -163,12 +163,15 @@ export const footerLinks = [
     title: 'Company',
     links: [
       {
+        name: 'Terms & Conditions',
         link: '#',
       },
       {
+        name: 'Privacy Policy',
         link: '#',
       },
       {
+        name: 'Contact',
         link: '#',
       },
     ],
@@ -177,13 +180,16 @@ export const footerLinks = [
     title: 'Get in touch',
     links: [
       {
+        name: 'Osogbo, Osun State, Nigeria',
         link: '#',
       },
       {
+        name: '234 90666315848',
         link: '#',
       },
       {
-        link: '#',
+        name: 'liasu.olabayo@gmail.com',
+        link: 'mailto:liasu.olabayo@gmail.com',
       },
     ],
   },

@@ -2,8 +2,9 @@ import { about, aboutLinks } from '../constants';
 import styles from '../style';
 
 const About = () => (
-  <section id="gpt" className={`bg-blue-800 about-card ${styles.innerPadding}`}>
-    <div className="sm:p-4 flex md:flex-row flex-col">
+  <section id="gpt" className={`bg-blue-900 about-card ${styles.innerPadding}`}>
+    <div className=" absolute feature__gradient1 left-[-50%]"></div>
+    <div className="sm:p-4 flex md:flex-row flex-col z-10">
       <div className="absolute header-gradient"></div>
       <h3 className={`${styles.heading3} text-white`}>{about.heading}</h3>
 
@@ -27,6 +28,7 @@ const About = () => (
         </div>
       ))}
     </div>
+    <div className="absolute feature-gradient2 right-[50%]"></div>
   </section>
 );
 

@@ -4,6 +4,7 @@ import styles from '../style';
 
 const Feature = () => (
   <section>
+    <div className="feature__gradient absolute z-[-1] left-[-10%]"></div>
     <div className="flex md:flex-row flex-col">
       <div className="flex-1 md:pr-28 mb-4">
         <h3 className={`${styles.heading2} header-text-gradient py-4`}>

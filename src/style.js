@@ -6,8 +6,8 @@ const styles = {
   heading2:
     'font-extrabold text-[20px] xs:text-[24px] sm:text-[40px] md:text-[44px] leading-[22px] xs:leading-[22.8px] sm:leading-[36.8px] md:leading-[48px] tracking-[-0.04em] w-full',
   heading3:
-    'font-extrabold text-[16px] xs:text-[18px] sm:text-[20px] xs:leading-[56.8px] sm:leading-[36.8px] leading-[36px] tracking-[-0.04em] w-full',
-  paragraph: 'font-normal text-blue text-[14px] sm:text-[16px] ',
+    'font-bold text-[14px] xs:text-[16px] sm:text-[18px] leading-[16px] xs:leading-[18px] sm:leading-[20px]  tracking-[-0.04em] w-full',
+  paragraph: 'font-normal text-blue text-[12px] sm:text-[14px] ',
 
   flexStart: 'flex justify-center items-start',
   flexCenter: 'flex justify-center items-center',

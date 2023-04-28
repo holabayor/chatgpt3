@@ -3,7 +3,7 @@ import styles from '../style';
 
 const Blog = () => (
   <section>
-    <h1 className={`header-text-gradient ${styles.heading1} mb-4`}>
+    <h1 className={`header-text-gradient ${styles.heading1} mb-4 pb-2`}>
       A lot is happening,
       <br className="sm:block hidden" /> We are blogging about it.
     </h1>
@@ -11,7 +11,15 @@ const Blog = () => (
       <div className="md:w-[40%] w-[100%] bg-[#042c54]">
         <div>
           <img src={blog[0].img} alt={blog[0].id} className="object-contain" />
-          <h4 className={`text-white ${styles.heading3}`}>{blog[0].heading}</h4>
+          <div className="flex flex-col">
+            <p className="text-white text-xs py-1">{blog[1].date}</p>
+            <h4 className={`text-white ${styles.heading3}`}>
+              {blog[0].heading}
+            </h4>
+            <p className="mt-12 text-white text-xs self-baseline">
+              Read full article
+            </p>
+          </div>
         </div>
       </div>
       <div className="md:w-[60%]  w-[100%]">
@@ -23,10 +31,11 @@ const Blog = () => (
               className="object-contain"
             />
             <div className="p-2">
-              <p className="text-white">{blog[1].date}</p>
+              <p className="text-white text-xs py-1">{blog[1].date}</p>
               <h4 className={`text-white ${styles.heading3}`}>
                 {blog[1].heading}
               </h4>
+              <p className="mt-12 text-white text-xs">Read full article</p>
             </div>
           </div>
           <div className="sm:max-w-[48%] bg-[#042C54]">

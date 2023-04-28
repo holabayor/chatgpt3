@@ -2,7 +2,7 @@ import styles from '../style';
 
 const CTA = () => (
   <section
-    className={`flex justify-between items-center bg__gradient md:p-8  p-4 sm:flex-row flex-col`}
+    className={`flex justify-between items-center bg__gradient md:p-8  p-4 sm:flex-row flex-col rounded-md`}
   >
     <div className="flex flex-1 flex-col mb-4">
       <p className="text-xs">Request Early Access to Get Started</p>
